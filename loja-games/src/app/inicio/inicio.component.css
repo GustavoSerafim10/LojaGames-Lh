@@ -1,0 +1,63 @@
+main {
+    min-height: 500px;
+}
+
+#section-banner {
+    min-height: 400px;
+}
+
+#section-banner img {
+    height: 500px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    color: blue;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+}
+
+/*Espaçamento das imagens tlg*/
+mat-grid-list {
+    margin: 10px 0px;
+}
+
+/* Vai botar uma borda*/
+mat-grid-tile {
+    padding: 2px;
+    border-radius: 30px;
+}
+
+/* Vai centralizar o título do Jogo 1 .. jogo 2.. jogo 3..*/
+mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Vamos centralizar o conteúdo o "COMPRAR"*/
+mat-card-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Vou modificar a cor do texto(do preço)*/
+mat-card-actions p{
+    color: red;
+    font-size: 30px;
+}
+
+/* Altura e a largura das minhas imagens tlg.*/
+mat-card img{
+    height: 300px;
+    width: 300px;
+}
