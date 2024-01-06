@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    /* serve para organizar os elementos que estão dentro de um local*/
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+#section-login {
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
